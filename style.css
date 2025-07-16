@@ -1,0 +1,312 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: 0;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    width: 100%;
+    padding: 18px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header img {
+    width: 100%;
+    height: 100px;
+    object-fit: contain;
+    object-position: center;
+}
+
+header div {
+    margin-left: auto;
+}
+
+header nav {
+    background-color: black;
+    width: 100%;
+    display: flex;
+}
+
+header ul {
+    width: 100%;
+    display: flex;
+}
+
+header li {
+    width: 100%;
+}
+
+header li a {
+    text-align: center;
+    color: white;
+}
+
+.icon {
+    width: 80%;
+    display: block;
+    text-align: right;
+}
+
+.icon img {
+    width: 50px;
+    height: 50px;
+
+}
+
+main img {
+    width: 500px;
+    height: 550px;
+    margin: 0 auto;
+    display: block;
+    object-fit: cover;
+    object-position: center;
+    background-color: black;
+    padding: 0px 500px;
+    border-right: 1px solid white;
+}
+
+.top ul {
+    padding: 10px;
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+    margin: 30px auto;
+    background-color: black;
+
+}
+
+.top li {
+    color: white;
+}
+
+#concept {
+    margin: auto;
+    display: flex;
+}
+
+#concept img {
+    width: 60%;
+    height: 300px;
+    margin: 200px;
+}
+
+#concept div {
+    width: 100%;
+    margin: auto 0;
+}
+
+#concept h2 {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+#concept h3 {
+    font-size: 15px;
+    position: relative;
+}
+
+#center {
+    display: block;
+    text-align: center;
+    border-bottom: 1px solid;
+
+}
+
+#center h1 {
+    text-align: center;
+    border-bottom: 1px solid;
+
+}
+
+#center img {
+    width: 700px;
+    height: 800px;
+    border: 0.1px solid black;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+#center1 h1 {
+    text-align: center;
+    border-bottom: 1px solid;
+    margin: 100px 0 0 0;
+}
+
+#center1 img {
+
+    width: 250px;
+    height: 300px;
+}
+
+.box-1 {
+    text-align: center;
+    object-fit: contain;
+    object-position: center;
+}
+
+.box-2 {
+    text-align: center;
+    object-fit: contain;
+    object-position: center;
+}
+
+#center1 button {
+    font-size: 20px;
+    margin: 60px auto;
+    border: 5px double black;
+    background-color: white;
+    padding: 0 20px 0 20px;
+    display: flex;
+    align-items: center;
+}
+
+#bottom h1 {
+    text-align: center;
+    border-bottom: 1px solid;
+    margin: 100px 0 0 0;
+}
+
+#bottom img {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    object-fit: contain;
+    width: 300px;
+    height: 150px;
+}
+
+.box--1 {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box--2 {
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#end h1 {
+    text-align: center;
+    border-bottom: 1px solid;
+    margin: 100px 0 0 0;
+}
+
+#end iframe {
+    width: 80%;
+    padding: 20px;
+    margin: 0 auto;
+    display: flex;
+}
+
+#end h2 {
+    font-size: 20px;
+    width: 100%;
+    padding: 20px 50px 10px 0;
+    text-align: center;
+}
+
+#end p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#contact h1 {
+    text-align: center;
+    border-bottom: 1px solid;
+    margin: 100px 0 0 0;
+}
+
+#contact button {
+    margin: 30px auto;
+    display: block;
+    padding: 10px 100px;
+    color: white;
+    background: linear-gradient(90deg, rgb(14, 25, 33)0%, rgb(240, 185, 225)50%, rgb(231, 71, 186))100%;
+    /* background-size: 200% 100%; */
+    font-size: 1rem;
+}
+
+#contact button:hover {
+    background-position: 100% 0;
+}
+
+
+.shape {
+    display: flex;
+    width: 70%;
+    text-align: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+
+/* レスポンシブデザイン */
+@media (max-width: 768px) {
+
+    /* タブレットサイズ */
+
+    main img {
+        width: 280px;
+        height: 300px;
+        margin: 0 auto;
+        display: block;
+        object-fit: cover;
+        object-position: center;
+        padding: 0px 260px;
+    }
+
+    #concept img {
+        width: 60%;
+        height: 300px;
+        margin: 200px auto 200px 20px;
+
+    }
+
+    #concept h2 {
+        font-size: 22px;
+        margin-left: 10px;
+    }
+
+    #concept h3 {
+        margin-left: 10px;
+        font-size: 18px;
+    }
+
+    #center img {
+        width: 500px;
+        height: 600px;
+    }
+
+
+    #bottom img {
+        width: 250px;
+        height: 150px;
+    }
+
+    .box--1 {
+        margin-top: 100px;
+    }
+}
+
+
+
+
+@media (max-width:480px) {
+
+    /* スマホサイズ */
+
+
+}
